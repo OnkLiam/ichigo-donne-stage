@@ -1,0 +1,12 @@
+version: 1
+purpose: observation outreach
+required_before_render:
+  - organization
+  - specific_reason
+  - official_source_url
+  - public_professional_contact
+  - observation_dates
+first_touch:
+  plain_text: true
+  attachments: false
+  tracking: false
